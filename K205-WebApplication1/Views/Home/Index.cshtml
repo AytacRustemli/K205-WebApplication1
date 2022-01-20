@@ -1,0 +1,67 @@
+﻿@using K205_WebApplication1.Models
+
+@foreach(var item in ViewData["products"] as List<Product>)
+{
+	<img width="500" src="@item.Photourl"/>
+	<h1>@item.Name</h1>
+	<h2>@item.Price</h2>
+	<p class="p2">@item.Description</p>
+	<p class="p3">@item.Color</p>
+	<p class="p4">@item.Ceki</p>
+	<p class="p5">@item.Yaddas</p>
+	<p class="p6">@item.Ekrandiaqanal</p>
+	<p class="p7">@item.Kateqoriya</p>
+	<p class="p8">@item.Emeliyyatsistemi</p>
+}
+<style>
+	img{
+		margin-left:40px;
+	}
+	h1{
+		margin-left:40px;
+		font-size:30px;
+	}
+	h2{
+		margin-left:150px;
+		color:red;
+	}
+	.p2{
+		line-height:30px;
+	}
+	.p3{
+		background-color:black;
+		color:white;
+		padding:20px;
+		margin-left:20px;
+	}
+	.p4{
+		background-color:grey;
+		color:white;
+		padding:20px;
+		margin-left:20px;
+	}
+	.p5{
+		background-color:black;
+		color:white;
+		padding:20px;
+		margin-left:20px;
+	}
+	.p6{
+		background-color:grey;
+		color:white;
+		padding:20px;
+		margin-left:20px;
+	}
+	.p7{
+		background-color:black;
+		color:white;
+		padding:20px;
+		margin-left:20px;
+	}
+	.p8{
+		background-color:grey;
+		color:white;
+		padding:20px;
+		margin-left:20px;
+	}
+</style>

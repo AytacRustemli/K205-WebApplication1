@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "E4Fu7Ys0F5DQfcdmb2xil2vmGX3GNiu6ChV+rr/Jq1A=",
+  "Source": "K205-WebApplication1",
+  "BasePath": "_content/K205-WebApplication1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "K205-WebApplication1\\wwwroot",
+      "Source": "K205-WebApplication1",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\K205-WebApplication1\\K205-WebApplication1\\wwwroot\\",
+      "BasePath": "_content/K205-WebApplication1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
